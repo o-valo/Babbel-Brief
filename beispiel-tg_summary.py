@@ -96,7 +96,7 @@ async def process_chat(client, entity, hours, ollama_url, model):
         # Erhöhte Stabilität durch Stop-Tokens und Predict-Limit
         resp = requests.post(f"{ollama_url}/api/generate", json={
             "model": model,
-            "prompt": f"Fasse diesen Linux-Chat kurz zusammen. Beende die Antwort sofort nach der Zusammenfassung. Generiere keine neuen User-Nachrichten!\n\nChatverlauf:\n{history}",
+            "prompt": f"Fasse diesen Chat kurz zusammen. Beende die Antwort sofort nach der Zusammenfassung. Generiere keine neuen User-Nachrichten!\n\nChatverlauf:\n{history}",
             "stream": False,
             "options": {
                 "num_predict": 800,       # Harte Grenze für die Länge (gegen Endlosschleifen)
