@@ -1,7 +1,7 @@
-# --- Ubot Telegram Summarizer Configuration ---
+#---  Babbel-Brief Telegram Summarizer Configuration   ---
 API_ID =08154711778886
 API_HASH =abcd3456767808154711999343435345345
-
+ 
 # Ziel für alle Zusammenfassungen (Kanal oder 'me')
 SUMMARY_DELIVERY_CHAT=-0815471675675576
 
