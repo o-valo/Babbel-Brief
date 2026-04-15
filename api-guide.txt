@@ -1,0 +1,49 @@
+======================================================================
+[DE] ANLEITUNG: TELEGRAM API-ZUGANGSDATEN ERSTELLEN
+======================================================================
+
+Um den Babbel-Brief zu nutzen, benötigst du eine API_ID und einen API_HASH. 
+Diese verknüpfen das Skript mit deinem Telegram-Account.
+
+SCHRITTE:
+1. Gehe auf die offizielle Webseite: https://my.telegram.org/auth
+2. Melde dich mit deiner Telefonnummer an (du erhältst einen Code direkt in Telegram).
+3. Klicke auf "API development tools".
+4. Fülle das Formular aus:
+   - App title: Babbel-Brief (oder ein Name deiner Wahl)
+   - Short name: babbelbrief
+   - URL: (Kann leer bleiben oder deine Webseite sein)
+   - Platform: Desktop
+   - Description: AI Summary Bot
+5. Klicke auf "Create application".
+6. Du siehst nun deine 'api_id' und deinen 'api_hash'.
+7. Kopiere beide Werte in deine 'conf.txt'.
+
+HINWEIS: Behandle diese Daten wie ein Passwort! Gib sie niemals öffentlich weiter.
+
+----------------------------------------------------------------------
+
+======================================================================
+[ENG] GUIDE: CREATING TELEGRAM API CREDENTIALS
+======================================================================
+
+To use Babbel-Brief, you need an API_ID and an API_HASH. 
+These link the script to your Telegram account.
+
+STEPS:
+1. Go to the official website: https://my.telegram.org/auth
+2. Log in with your phone number (you will receive a code directly in Telegram).
+3. Click on "API development tools".
+4. Fill out the form:
+   - App title: Babbel-Brief (or any name you like)
+   - Short name: babbelbrief
+   - URL: (Can be left blank or your website)
+   - Platform: Desktop
+   - Description: AI Summary Bot
+5. Click "Create application".
+6. You will now see your 'api_id' and 'api_hash'.
+7. Copy both values into your 'conf.txt'.
+
+NOTE: Treat these credentials like a password! Never share them publicly.
+
+======================================================================
