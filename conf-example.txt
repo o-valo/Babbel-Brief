@@ -1,0 +1,17 @@
+# --- Ubot Telegram Summarizer ---
+API_ID =1866436
+API_HASH =1573ferrtt7kk332223cee4b8
+
+# Ziel für alle Zusammenfassungen (Kanal-ID oder 'me')
+SUMMARY_DELIVERY_CHAT=-xxxxxxxxx
+
+# Infrastruktur
+OLLAMA_BASE_URL=http://10.7.0.79:11434
+OLLAMA_MODEL=qwen3.5:9b-q8_0
+OLLAMA_TIMEOUT=600
+HOURS=24
+LOG_DIR=summaries
+
+# --- TARGET CHATS ---
+# IDs oder @Namen untereinander listen
+me
