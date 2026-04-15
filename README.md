@@ -11,6 +11,9 @@ Vibe: Effizient, bodenständig, informativ.
     Wie es funktioniert:
     Basierend auf der Telethon-API extrahiert ein Python-Skript (auf meinem Orange Pi) die Nachrichten der letzten 24 Stunden. Diese werden verschlüsselt an meine lokale KI (Ollama auf einem Ryzen 5/RTX 5060) gesendet, dort analysiert und als strukturierter Digest aufbereitet. Das Ergebnis dient nicht nur der schnellen Übersicht, sondern wird als Markdown-Archiv direkt in mein Docmost-System gepumpt, um als Langzeitgedächtnis für mein persönliches RAG-System (KI-Experte) zur Verfügung zu stehen.
 
+Wirf einen Blick auf die api-guide.txt damit du deinen eigenen Key bekommen kannst !!
+
+
 🇺🇸 English: Description
 
 Name: Babbel-Brief (The "Chatter Digest")
@@ -21,5 +24,8 @@ Vibe: Professional, automated, insightful.
 
     Technical Workflow:
     Running as a cronjob on a local Orange Pi, the script utilizes the Telethon API to fetch the last 24 hours of messages from selected targets. The raw text is then processed by a local LLM (Ollama) running on high-efficiency hardware. The generated summaries are delivered via Telegram and simultaneously archived in Docmost. This creates a continuous data pipeline for a RAG-based (Retrieval-Augmented Generation) AI expert that knows exactly what was discussed in my private communities.
+
+##take a look to the api-guide.txt to get your codes !
+
 
 Powerd by AI .-)
