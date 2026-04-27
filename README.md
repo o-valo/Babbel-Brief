@@ -23,7 +23,7 @@ Vibe: Professional, automated, insightful.
     Babbel-Brief is a custom AI-driven assistant designed to summarize Telegram conversations. It acts as a bridge between high-volume group chats and a structured personal knowledge base, distilling daily chatter into actionable insights.
 
     Technical Workflow:
-    Running as a cronjob on a local Orange Pi, the script utilizes the Telethon API to fetch the last 24 hours of messages from selected targets. The raw text is then processed by a local LLM (Ollama) running on high-efficiency hardware. The generated summaries are delivered via Telegram and simultaneously archived in Docmost. This creates a continuous data pipeline for a RAG-based (Retrieval-Augmented Generation) AI expert that knows exactly what was discussed in my private communities.
+    Running as a cronjob on a local Orange Pi, the script utilizes the Telegram API to fetch the last 24 hours of messages from selected targets. The raw text is then processed by a local LLM (Ollama) running on high-efficiency hardware. The generated summaries are delivered via Telegram and simultaneously archived in Docmost. This creates a continuous data pipeline for a RAG-based (Retrieval-Augmented Generation) AI expert that knows exactly what was discussed in my private communities.
 
 ##take a look to the api-guide.txt to get your codes !
 
