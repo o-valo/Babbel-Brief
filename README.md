@@ -9,7 +9,7 @@ Vibe: Effizient, bodenständig, informativ.
     Der Babbel-Brief ist mein persönlicher KI-Sekretär für Telegram. Er liest automatisch definierte Chats und Kanäle aus, filtert das „Gebabbel“ heraus und liefert täglich eine prägnante Zusammenfassung der wichtigsten Themen direkt in meinen Log-Kanal.
 
     Wie es funktioniert:
-    Basierend auf der Telethon-API extrahiert ein Python-Skript (auf meinem Orange Pi) die Nachrichten der letzten 24 Stunden. Diese werden verschlüsselt an meine lokale KI (Ollama auf einem Ryzen 5/RTX 5060) gesendet, dort analysiert und als strukturierter Digest aufbereitet. Das Ergebnis dient nicht nur der schnellen Übersicht, sondern wird als Markdown-Archiv direkt in mein Docmost-System gepumpt, um als Langzeitgedächtnis für mein persönliches RAG-System (KI-Experte) zur Verfügung zu stehen.
+    Basierend auf der Telegram-API extrahiert ein Python-Skript (auf meinem Orange Pi) die Nachrichten der letzten 24 Stunden. Diese werden verschlüsselt an meine lokale KI (Ollama auf einem Ryzen 5/RTX 5060) gesendet, dort analysiert und als strukturierter Digest aufbereitet. Das Ergebnis dient nicht nur der schnellen Übersicht, sondern wird als Markdown-Archiv direkt in mein Docmost-System gepumpt, um als Langzeitgedächtnis für mein persönliches RAG-System (KI-Experte) zur Verfügung zu stehen.
 
 Wirf einen Blick auf die api-guide.txt damit du deinen eigenen Key bekommen kannst !!
 
